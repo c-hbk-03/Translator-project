@@ -1,0 +1,6 @@
+fitz==0.0.1.dev2
+nltk==3.8.1
+openai==0.28.0
+pandas==2.2.2
+python_docx==1.1.2
+streamlit==1.37.1
