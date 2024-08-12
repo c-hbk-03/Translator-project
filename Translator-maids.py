@@ -7,7 +7,7 @@ import os
 from nltk.tokenize import sent_tokenize
 import pandas as pd
 
-openai.api_key = os.getenv('OPENAI_API_KEY')
+openai.api_key = st.secrets["OpenAI_API_key"]
 
 # Initialize session state for variables that need to persist
 if "FirstList" not in st.session_state:
