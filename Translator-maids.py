@@ -3,7 +3,6 @@ import nltk
 import streamlit as st
 from docx import Document
 import openai
-import os
 from nltk.tokenize import sent_tokenize
 import pandas as pd
 
